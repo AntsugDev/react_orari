@@ -1,0 +1,65 @@
+@import url('../node_modules/bootstrap/dist/css/bootstrap.min.css');
+body {
+  margin: 0;
+  font-family:  'Bebas Neue', cursive;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #AED6F1;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.error{
+color: red;
+font-size: 18px;
+font-weight: 800;
+}
+
+.header{
+  background-color: bisque;
+  color: black;
+  font-size: 22px;
+  font-weight: 600;
+  padding-top: 2vw;
+  padding-bottom: 2vw;
+  width: 100%;
+  flex-direction: row;
+  margin-bottom: 2vw;
+}
+.footer{
+  background-color: bisque;
+  color: black;
+  font-size: 22px;
+  font-weight: 600;
+  margin-top: 10vw;
+  width: 100%;
+  flex-direction: row;
+}
+.titolo{
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 800;
+}
+.borderForm{
+  border: 1px solid;
+  border-radius: 0.5em;
+  width: 100%;
+  height: auto;
+  margin-top: 1vw;
+  margin-left: 1vw;
+  margin-right: 1vw;
+  margin-bottom: 1vw;
+  padding: 2vw;
+}
+.css-k2olzo{
+  position:absolute!important;
+}
+
+.iconsFa{
+  color: #f00;
+        font-size: 18px;
+        cursor: pointer;
+}
